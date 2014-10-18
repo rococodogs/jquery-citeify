@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>jquery-citeify</title>
+  </head>
+  <body>
+  <p>I am a paragraph with a <q>quotation</q> inside of it.</p>
+  <p>And I am a paragraph with a <q cite="#">cited quotation</q> inside of it.</p>
+  <p>And <em>I</em> am a paragraph with a <q cite="#"><strong>strong'd</strong> cited quotation</q> inside of it.</p>
+
+  <script src="jquery-2.1.1.min.js"></script>
+  <script src="jquery-citeify.js"></script>
+  <script>
+    $('p').citeify();
+  </script>
+  </body>
+</html>
+
